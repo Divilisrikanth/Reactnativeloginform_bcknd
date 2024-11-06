@@ -62,7 +62,7 @@ app.patch("/Update", async (req, res, next) => {
   }
 });
 //switch local address of your machine to run this app on mobile android expo app metro waiting on exp://
-//app.listen(port, "192.168.1.2", async () => {
+//app.listen(port, "+++++", async () => {
   app.listen(port , async () => {
   try {
     await connectDB(process.env.MONGO_URI);
